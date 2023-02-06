@@ -310,8 +310,7 @@ public class Vehicle extends VehicleOwner {
 		// This class and method are required to allow the "back" button to function
 		// properly.
 		public class backListener implements ActionListener {
-			public void actionPerformed(ActionEvent e)
-			{
+			public void actionPerformed(ActionEvent e) {
 				frame.dispose();
 				HomePage.VehicleOwnerHome home = new HomePage().new VehicleOwnerHome();
 			}
