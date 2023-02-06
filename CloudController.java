@@ -272,6 +272,6 @@ public class CloudController {
 	
 	public static void main(String[] args)
 	{
-		new CloudController();
+			new CloudController();
 	}
 }
