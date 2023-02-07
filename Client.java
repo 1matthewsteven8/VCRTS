@@ -12,7 +12,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class Client extends User {
+public class Client extends User  {
 	
 	private String userN;
 	private String password;
