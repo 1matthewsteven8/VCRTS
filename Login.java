@@ -18,7 +18,7 @@ public class Login {
 	private JPanel panel;
 	public static JTextField usernameField;
 
-	// initialize JFrame
+	// initialize the JFrame
 
 	JFrame frame = new JFrame();
 
