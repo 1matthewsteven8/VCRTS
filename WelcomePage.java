@@ -152,6 +152,8 @@ public class WelcomePage implements ActionListener {
 			frame.dispose();
 			new CloudController();
 			System.out.println("Cloud Controller was selected");
+	
 		}
 	} 
+	
 }
