@@ -106,9 +106,8 @@ public class SystemJobs {
 		
 		File file = new File("SavedInfo/VehicleCheckedIn.txt"); // create new file where info will be stored
 		file.getParentFile().mkdirs(); // use getParentFile().mkdirs() to have location where file is stored created
-										// automatically
-										// if it does not exist
-
+										// automatically if it does not exist
+			
 		try { // catch exception when printing into file
 			PrintWriter fileWriter = new PrintWriter(new FileWriter(file, true)); // create writer
 			Timestamp time = new Timestamp(System.currentTimeMillis());
