@@ -6,7 +6,7 @@ public class WelcomePage implements ActionListener {
 	
 	public static String currentState = "";
 	
-	// main method to run WelcomePage
+	//main method to run WelcomePage
 	public static void main(String[] args)
 	{
 		// SystemFrame systemFrame = new SystemFrame();
@@ -71,7 +71,6 @@ public class WelcomePage implements ActionListener {
 	}
 	
 	// Create Register Button
-	
 	// register.setBounds(160, 190, 140, 25);
 	
 	public void RegisterButton()
