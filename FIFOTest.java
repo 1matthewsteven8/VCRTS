@@ -43,7 +43,6 @@ public class FIFOTest {
 			time += currentJob.getJobDuration();
 			currentJob = tempqueue.remove();
 		}
-		
 		return time;
 	}
 	
